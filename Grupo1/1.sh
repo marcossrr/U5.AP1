@@ -7,8 +7,7 @@ read apellido1 apellido2;
 
 i=1
 
-while [ $i -le 5 ]
-do
+while [ $i -le 5 ]; do
   echo $i
   i=$((i+1))
 done
